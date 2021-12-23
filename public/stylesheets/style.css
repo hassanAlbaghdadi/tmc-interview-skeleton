@@ -6,3 +6,46 @@ body {
 a {
   color: #00B7FF;
 }
+
+h1{
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+}
+
+table{
+  width: 100%;
+}
+
+button{
+  width: 70px;
+  height: 30px;
+  border-radius: 1em 0 0 1em !important;
+}
+
+#info-panel{
+  display: flex;
+  width: 40%;
+  margin: 0 auto;
+}
+
+#region-select{
+  display: flex;
+  flex-direction: column;
+  flex-basis: 10%;
+}
+
+#region-details{
+  flex: 0 0 100%;
+  border: solid 1px;
+  padding: 1rem;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.selected{
+  background-color: white;
+  border-right:none;
+}
